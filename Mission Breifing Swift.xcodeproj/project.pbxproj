@@ -9,19 +9,19 @@
 /* Begin PBXBuildFile section */
 		9F7C687D1CE24D62006CC694 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C687C1CE24D62006CC694 /* AppDelegate.swift */; };
 		9F7C687F1CE24D62006CC694 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C687E1CE24D62006CC694 /* ViewController.swift */; };
-		9F7C68821CE24D62006CC694 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F7C68801CE24D62006CC694 /* Main.storyboard */; };
 		9F7C68841CE24D62006CC694 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F7C68831CE24D62006CC694 /* Assets.xcassets */; };
 		9F7C68871CE24D62006CC694 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F7C68851CE24D62006CC694 /* LaunchScreen.storyboard */; };
+		9F7C68901CE24EA1006CC694 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F7C688E1CE24EA1006CC694 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9F7C68791CE24D62006CC694 /* Mission Breifing Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mission Breifing Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F7C687C1CE24D62006CC694 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F7C687E1CE24D62006CC694 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9F7C68811CE24D62006CC694 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F7C68831CE24D62006CC694 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F7C68861CE24D62006CC694 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F7C68881CE24D62006CC694 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F7C688F1CE24EA1006CC694 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../Mission-Briefing/Mission Briefing/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +56,7 @@
 			children = (
 				9F7C687C1CE24D62006CC694 /* AppDelegate.swift */,
 				9F7C687E1CE24D62006CC694 /* ViewController.swift */,
-				9F7C68801CE24D62006CC694 /* Main.storyboard */,
+				9F7C688E1CE24EA1006CC694 /* Main.storyboard */,
 				9F7C68831CE24D62006CC694 /* Assets.xcassets */,
 				9F7C68851CE24D62006CC694 /* LaunchScreen.storyboard */,
 				9F7C68881CE24D62006CC694 /* Info.plist */,
@@ -123,9 +123,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F7C68901CE24EA1006CC694 /* Main.storyboard in Resources */,
 				9F7C68871CE24D62006CC694 /* LaunchScreen.storyboard in Resources */,
 				9F7C68841CE24D62006CC694 /* Assets.xcassets in Resources */,
-				9F7C68821CE24D62006CC694 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,20 +144,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9F7C68801CE24D62006CC694 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9F7C68811CE24D62006CC694 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9F7C68851CE24D62006CC694 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				9F7C68861CE24D62006CC694 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9F7C688E1CE24EA1006CC694 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F7C688F1CE24EA1006CC694 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -289,6 +289,7 @@
 				9F7C688D1CE24D62006CC694 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

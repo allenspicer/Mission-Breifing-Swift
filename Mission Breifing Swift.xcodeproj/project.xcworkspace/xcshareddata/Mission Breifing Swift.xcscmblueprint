@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "41009EDE17F9E570F9CEEACB53BEE22449B3D967",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "41009EDE17F9E570F9CEEACB53BEE22449B3D967" : 0,
+    "C327FB49E72F4F4E12D6C7260ECE4479B587DFB6" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "2FC21543-854D-484B-8BA3-A14DE0B3052D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "41009EDE17F9E570F9CEEACB53BEE22449B3D967" : "Mission%20Breifing%20Swift\/",
+    "C327FB49E72F4F4E12D6C7260ECE4479B587DFB6" : "Mission-Briefing\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Mission Breifing Swift",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Mission Breifing Swift.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/allenspicer\/Mission-Breifing-Swift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "41009EDE17F9E570F9CEEACB53BEE22449B3D967"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/allenspicer\/Mission-Briefing.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C327FB49E72F4F4E12D6C7260ECE4479B587DFB6"
+    }
+  ]
+}
