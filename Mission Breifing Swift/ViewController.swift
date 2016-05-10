@@ -34,27 +34,24 @@ missionBreifing.text = ""
         if (agentName.isFirstResponder()){
             agentName.resignFirstResponder()
         }
-        
-        self.view.backgroundColor = .greenColor()
-        
-    
-        
-        //parse name
-        let agentNameArray = agentName.text?.componentsSeparatedByString(" ")
-        
-        greetingLabel.text = "Good evening, Agent\(agentName.text)"
-        
-        missionBreifing.text = "This mission will be an arduous one, fraught with peril. You will cover much strange and unfamiliar territory. Should you choose to accept this mission, Agent \(agentNameArray?.last), you will certainly be disavowed, but you will be doing your country a great service. This message will self destruct in 5 seconds."
-    
-        
-        
-    }
 
+let agentNameArray = agentName.text?.componentsSeparatedByString(" ")
 
+    if (agentNameArray!.last!.isEmpty){
+        self.view.backgroundColor = .redColor()
+        missionBreifing.text = ""
+            }else{
+                self.view.backgroundColor = .greenColor()
+
+               let lastName = agentNameArray!.last
+                
+                greetingLabel.text = "Good evening, Agent \(lastName!)"
+                
+                missionBreifing.text = "This mission will be an arduous one, fraught with peril. You will cover much strange and unfamiliar territory. Should you choose to accept this mission, Agent \(lastName!), you will certainly be disavowed, but you will be doing your country a great service. This message will self destruct in 5 seconds."
+            }
 }
 
-
-
+}
 
 
 
